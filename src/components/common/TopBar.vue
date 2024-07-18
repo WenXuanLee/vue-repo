@@ -32,11 +32,6 @@ export default {
       ]
     };
   },
-  methods: {
-    toggleDrawer() {
-      this.drawerOpen = !this.drawerOpen;
-    },
-  }
 };
 </script>
 
@@ -64,10 +59,7 @@ export default {
 .nav-links.column-direction {
   flex-direction: column;
 }
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
+
 .nav-links {
   display: flex;
   gap: 1rem;
